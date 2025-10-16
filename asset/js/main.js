@@ -12,19 +12,22 @@ console.log(cpuNumber);
 const firstFiveNumEL = document.getElementById("firstFiveNum");
 firstFiveNumEL.innerText = cpuNumber;
 
-
-
-
-
-
-
-
-
-
-
-
-
 // IMPOSTARE UN TIMER DI 30 SECONDI AFFINCHE POI SPARISCANO (la variabile sopra deve stare dentro la funzione).
+setTimeout(TenSeconds, 10000);
+
+function TenSeconds() {
+    firstFiveNumEL.innerText = "";
+    alert("Tempo scaduto!");    
+}
+
+
+
+
+
+
+
+
+
 // CHIEDERE ALL'UTENTE DI INSERIRE 5 NUMERI (tramite prompt o sumbit)
 
 // INSERIRE IN UNA ARRAY I CINQUE NUMERI SCELTI DALL'USER
