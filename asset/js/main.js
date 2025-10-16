@@ -12,7 +12,7 @@ console.log(cpuNumber);
 const firstFiveNumEL = document.getElementById("firstFiveNum");
 firstFiveNumEL.innerText = cpuNumber;
 
-// IMPOSTARE UN TIMER DI 30 SECONDI AFFINCHE POI SPARISCANO (la variabile sopra deve stare dentro la funzione).
+// IMPOSTARE UN TIMER DI 30 SECONDI AFFINCHE POI SPARISCANO 
 setTimeout(TenSeconds, 10000);
 
 function TenSeconds() {
