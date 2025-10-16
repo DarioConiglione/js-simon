@@ -18,6 +18,7 @@ setTimeout(TenSeconds, 3000);
 function TenSeconds() {
     firstFiveNumEL.innerText = "";
     alert("Tempo scaduto!");
+    formEl.classList.remove("d-none");
 }
 
 // CHIEDERE ALL'UTENTE DI INSERIRE 5 NUMERI (tramite prompt o sumbit)
@@ -52,7 +53,6 @@ formEl.addEventListener('submit', (event) => {
 });
 
 
-// PARAGONARE LE DUE ARRAY
 
 
 
